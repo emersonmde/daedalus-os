@@ -9,7 +9,7 @@ fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
 
-static HELLO: &[u8] = b"Hello World!";
+static HELLO: &[u8] = b"Welcome to DaedalusOS!";
 
 
 #[no_mangle]

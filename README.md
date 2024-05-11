@@ -18,11 +18,12 @@ To run the bootimage, `llvm-tools-preview` must be installed
 rustup component add llvm-tools-preview
 ```
 
-Then run `cargo bootimage` to create the bootable disk image
+Then use the `bootimage` tool to create the bootable disk image
 ```bash
 cargo bootimage
 ```
 
+To run the kernel in QEMU, run the following command
 ```bash
-cargo build --target x86_64-daedalus-os.json
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-daedalus-os/debug/bootimage-daedalus-os.bin
 ```
