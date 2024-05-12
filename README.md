@@ -1,4 +1,5 @@
 ## DaedalusOS
+DaedalusOS is a Rust based OS kernel following the [Writing an OS in Rust](https://os.phil-opp.com/) blog series by Philipp Oppermann.
 
 ## Running
 
