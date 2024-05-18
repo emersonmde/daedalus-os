@@ -32,7 +32,7 @@ qemu-system-x86_64 -drive format=raw,file=target/x86_64-daedalus-os/debug/bootim
 ## Current Progress
 - ✅ [A Freestanding Rust Binary](https://os.phil-opp.com/freestanding-rust-binary/)
 - ✅ [A Minimal Rust Kernel](https://os.phil-opp.com/minimal-rust-kernel/)
-- [VGA Text Mode](https://os.phil-opp.com/vga-text-mode/)
+- ✅ [VGA Text Mode](https://os.phil-opp.com/vga-text-mode/)
 - [Testing](https://os.phil-opp.com/testing/)
 - [CPU Exceptions](https://os.phil-opp.com/cpu-exceptions/)
 - [Double Faults](https://os.phil-opp.com/double-fault-exceptions/)
